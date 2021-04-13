@@ -66,8 +66,8 @@ The 'googleplaystore.csv' file has many different variables (such as Installs, R
 ### Relationship between log(Installs) and log(Reviews) 
 * A linear regression model is built (where log(Installs) is the y-axis and log(Reviews) is the x-axis) 
 * p-value<2.2e-16
-* R-squared = 0.9108
-* Pearson correlation co-efficient = 0.9543838
+* R-squared = 0.9116
+* Pearson correlation co-efficient = 0.9547814
 
 *Residual QQ-plot (we can tell that it is approximately normal distributed which is good)*
 
@@ -76,8 +76,8 @@ The 'googleplaystore.csv' file has many different variables (such as Installs, R
 ### Relationship between log(Installs) and log(Size) 
 * A linear regression model is built (where log(Installs) is the y-axis and log(Size) is the x-axis) 
 * p-value<2.2e-16
-* R-squared = 0.1156 
-* Pearson correlation co-efficient = 0.3399686
+* R-squared = 0.1284
+* Pearson correlation co-efficient = 0.3583851 
 
 *Residual QQ-plot (we can tell that it is approximately normal distributed which is good)*
 
@@ -85,9 +85,9 @@ The 'googleplaystore.csv' file has many different variables (such as Installs, R
 
 ### Relationship between log(Installs) and Rating 
 * A linear regression model is built (where log(Installs) is the y-axis and Rating is the x-axis) 
-* p-value = 4.94e-14
-* R-squared = 0.007374
-* Pearson correlation co-efficient = 0.0858695 
+* p-value = 1.079e-05
+* R-squared = 0.002756
+* Pearson correlation co-efficient = -0.05249374 
 
 *Residual QQ-plot (we can tell that it is approximately normal distributed which is good)*
 
@@ -98,7 +98,7 @@ The 'googleplaystore.csv' file has many different variables (such as Installs, R
 * Pearson correlation coefficient is the measure of linear correlation between the corresponding 2 variables 
 
 ## Conclusion 
-* By comparing the R-squared value and Pearson correlation co-efficient value, we can conclude that the factors with **decreasing** influence on the Installs variable are:
+* By comparing the R-squared value and Pearson correlation co-efficient value, we can conclude that the factors with **decreasing** influence on the log(Installs) variable are:
   1. log(Reviews)
   2. log(Size)
   3. Rating 
