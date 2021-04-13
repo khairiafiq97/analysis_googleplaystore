@@ -91,4 +91,14 @@ The 'googleplaystore.csv' file has many different variables (such as Installs, R
 
 *Residual QQ-plot (we can tell that it is approximately normal distributed which is good)*
 
+![Rplot52](https://user-images.githubusercontent.com/81233513/114530131-3d67f400-9c7d-11eb-945f-88364502420b.png)
 
+### Definitions to know 
+* R-squared is the proportion of variance in the response variable that is associated with the independent variable 
+* Pearson correlation coefficient is the measure of linear correlation between the corresponding 2 variables 
+
+## Conclusion 
+* By comparing the R-squared value and Pearson correlation co-efficient value, we can conclude that the factors with **decreasing** influence on the Installs variable are:
+  1. log(Reviews)
+  2. log(Size)
+  3. Rating 
