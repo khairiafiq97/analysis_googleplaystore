@@ -28,7 +28,7 @@ The 'googleplaystore.csv' file has many different variables (such as Installs, R
 1. log function was applied to the variable to make it more normally distributed. 
 2. Using the boxplot rule, outliers were remmoved. 
 
-Before and After
+*Before and After*
 
 ![Rplot46](https://user-images.githubusercontent.com/81233513/114515006-79e02380-9c6e-11eb-8b59-84dfca9d366b.png)
 
