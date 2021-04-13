@@ -22,3 +22,6 @@ The 'googleplaystore.csv' file has many different variables (such as Installs, R
 7. 'App' variable: NIL 
 8. 'Category' variable: NIL 
 
+## Removing outliers 
+
+### hello 
