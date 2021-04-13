@@ -69,7 +69,17 @@ The 'googleplaystore.csv' file has many different variables (such as Installs, R
 * R-squared = 0.9108
 * Pearson correlation co-efficient = 0.9543838
 
-*Residual QQ-plot (we can tell that it is approximately normal distributed, GOOD!)*
+*Residual QQ-plot (we can tell that it is approximately normal distributed which is good)*
+
+![Rplot50](https://user-images.githubusercontent.com/81233513/114528779-e281cd00-9c7b-11eb-89d2-e2ec44865951.png)
+
+### Relationship between log(Installs) and log(Size) 
+* A linear regression model is built (where log(Installs) is the y-axis and log(Size) is the x-axis) 
+* p-value<2.2e-16
+* R-squared = 0.1156 
+* Pearson correlation co-efficient = 0.3399686
+
+*Residual QQ-plot (we can tell that it is approximately normal distributed which is good)*
 
 
 
