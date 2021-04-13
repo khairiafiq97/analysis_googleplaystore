@@ -81,6 +81,14 @@ The 'googleplaystore.csv' file has many different variables (such as Installs, R
 
 *Residual QQ-plot (we can tell that it is approximately normal distributed which is good)*
 
+![Rplot51](https://user-images.githubusercontent.com/81233513/114529389-7a7fb680-9c7c-11eb-9441-51a770cccdf2.png)
 
+### Relationship between log(Installs) and Rating 
+* A linear regression model is built (where log(Installs) is the y-axis and Rating is the x-axis) 
+* p-value = 4.94e-14
+* R-squared = 0.007374
+* Pearson correlation co-efficient = 0.0858695 
+
+*Residual QQ-plot (we can tell that it is approximately normal distributed which is good)*
 
 
