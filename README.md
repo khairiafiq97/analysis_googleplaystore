@@ -13,4 +13,12 @@ The 'googleplaystore.csv' file has many different variables (such as Installs, R
 * To determine which is the biggest factor that affects the number of installs an application has. 
 
 ### Data Cleaning 
+1. 'Type' variable: Values '0' and 'NaN' was removed because they are not applicable. I am only focusing on 'Paid' and 'Free' app categories
+2. 'Android.Ver' variable: Values 'NaN' and 'Varies with Device' was removed. 
+3. 'Reviews' variable: Change the values from categorical to numerical because they are more suitable as numerical variables
+4. 'Rating' vairable: Values 'na' were removed 
+5. 'Installs' variable: Remove '+' and '-' in the values as well as changing to numerical variables 
+6. 'Size' variable: Converting values in 'kB' into 'MB' values (for standardization) and then removing 'k' and 'M' 
+7. 'App' variable: NIL 
+8. 'Category' variable: NIL 
 
