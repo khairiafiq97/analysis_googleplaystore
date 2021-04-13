@@ -24,4 +24,18 @@ The 'googleplaystore.csv' file has many different variables (such as Installs, R
 
 ## Removing outliers 
 
-### hello 
+### 'Installs' variable (line code 66-77)
+1. log function was applied to the variable to make it more normally distributed. 
+2. Using the boxplot rule, outliers were remmoved. 
+
+
+### 'Reviews' variable (line code 81-84) 
+1. log function was applied to the variable to make it more normally distributed. 
+
+### 'Rating' variable (line code 89-95)
+1. Using the boxplot rule, outliers were remmoved. 
+
+### 'Size' variable (line code 99-110) 
+1. log function was applied to the variable to make it more normally distributed. 
+2. Using the boxplot rule, outliers were remmoved. 
+
