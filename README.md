@@ -37,10 +37,14 @@ The 'googleplaystore.csv' file has many different variables (such as Installs, R
 
 *Before and After*
 
+![Rplot47](https://user-images.githubusercontent.com/81233513/114515683-32a66280-9c6f-11eb-81e7-e48a3ebb751e.png)
+
 ### 'Rating' variable (line code 89-95)
 1. Using the boxplot rule, outliers were remmoved. 
 
 *Before and After*
+
+![Rplot48](https://user-images.githubusercontent.com/81233513/114515687-33d78f80-9c6f-11eb-98ed-f3fe74dc6e8c.png)
 
 ### 'Size' variable (line code 99-110) 
 1. log function was applied to the variable to make it more normally distributed. 
@@ -48,4 +52,4 @@ The 'googleplaystore.csv' file has many different variables (such as Installs, R
 
 *Before and After*
 
-
+![Rplot49](https://user-images.githubusercontent.com/81233513/114515690-33d78f80-9c6f-11eb-9dc4-017f9dfdd4b7.png)
