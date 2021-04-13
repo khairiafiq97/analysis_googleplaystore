@@ -1,18 +1,18 @@
 # analysis_googleplaystore
 
-### How to get started 
+## How to get started 
 1. Download R and an IDE for R such as RStudio 
 2. Download the googleplaystore.csv file 
 3. Run the code.R file in your RStudio 
 
-### Intro of Dataset
+## Intro of Dataset
 The 'googleplaystore.csv' file has many different variables (such as Installs, Reviews etc) related to the different apps in the Google Play Store.
 
-### Goals 
+## Goals 
 * To analyse how the different independent variables affect the response variable (I chose 'Installs' to be the response variable)
 * To determine which is the biggest factor that affects the number of installs an application has. 
 
-### Data Cleaning 
+## Data Cleaning 
 1. 'Type' variable: Values '0' and 'NaN' was removed because they are not applicable. I am only focusing on 'Paid' and 'Free' app categories
 2. 'Android.Ver' variable: Values 'NaN' and 'Varies with Device' was removed. 
 3. 'Reviews' variable: Change the values from categorical to numerical because they are more suitable as numerical variables
@@ -53,3 +53,14 @@ The 'googleplaystore.csv' file has many different variables (such as Installs, R
 *Before and After*
 
 ![Rplot49](https://user-images.githubusercontent.com/81233513/114515690-33d78f80-9c6f-11eb-9dc4-017f9dfdd4b7.png)
+
+## Relationship Between log(Installs) and the Dependent Variables 
+
+### Relationship between log(Installs) and Type (line code 155-159)
+* There are 2 categories for 'Type' variable: 'Free' and 'Paid'
+* From the boxplot, we can tell that the 'Free' apps has a greater mean log(Installs) value than the 'Paid' apps 
+* A variance test is conducted first to test whether the 2 variance are equal or not. Since p-value (2.2e-16) is smaller than alpha, the 2 variances are not equal. 
+* Next, a t-test is conducted to determine whether the true mean log(Installs) value of 'Free' apps is truly greater than 'Paid' apps. Since p-value (2.2e-16) is smaller than alpha, the alternate hypothesis is true. 
+* Thus, we can conclude that 'Free' apps produces greater number of Installs than 'Paid' apps 
+
+### 
