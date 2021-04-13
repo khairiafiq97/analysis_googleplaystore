@@ -59,8 +59,18 @@ The 'googleplaystore.csv' file has many different variables (such as Installs, R
 ### Relationship between log(Installs) and Type (line code 155-159)
 * There are 2 categories for 'Type' variable: 'Free' and 'Paid'
 * From the boxplot, we can tell that the 'Free' apps has a greater mean log(Installs) value than the 'Paid' apps 
-* A variance test is conducted first to test whether the 2 variance are equal or not. Since p-value (2.2e-16) is smaller than alpha, the 2 variances are not equal. 
-* Next, a t-test is conducted to determine whether the true mean log(Installs) value of 'Free' apps is truly greater than 'Paid' apps. Since p-value (2.2e-16) is smaller than alpha, the alternate hypothesis is true. 
+* A variance test is conducted first to test whether the 2 variance are equal or not. Since p-value (<2.2e-16) is smaller than alpha, the 2 variances are not equal. 
+* Next, a t-test is conducted to determine whether the true mean log(Installs) value of 'Free' apps is truly greater than 'Paid' apps. Since p-value (<2.2e-16) is smaller than alpha, the alternate hypothesis is true. 
 * Thus, we can conclude that 'Free' apps produces greater number of Installs than 'Paid' apps 
 
-### 
+### Relationship between log(Installs) and log(Reviews) 
+* A linear regression model is built (where log(Installs) is the y-axis and log(Reviews) is the x-axis) 
+* p-value<2.2e-16
+* R-squared = 0.9108
+* Pearson correlation co-efficient = 0.9543838
+
+*Residual QQ-plot (we can tell that it is approximately normal distributed, GOOD!)*
+
+
+
+
